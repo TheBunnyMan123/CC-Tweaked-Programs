@@ -22,7 +22,7 @@ print("What is the ID of the computer you want to send this file to?")
 local ID = read()
 local IDtemp = ID
 ID = tonumber(IDtemp)
-textUtils.slowPrint("Sending file "..file.." to computer "..ID)
+textutils.slowPrint("Sending file "..file.." to computer "..ID)
 sleep(1)
 rednet.send(ID, "fileSending")
 sleep(1)
