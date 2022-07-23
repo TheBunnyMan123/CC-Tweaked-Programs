@@ -19,7 +19,7 @@ while true do
                 f.close()
                 print("File "..msg2.." received")
                 sleep(5)
-                textUtils.slowPrint(msg3)
+                textutils.slowPrint(msg3)
                 sleep(5)
                 shell.run("/.menu")                
             end
