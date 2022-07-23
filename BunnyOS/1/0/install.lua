@@ -1,4 +1,4 @@
-print("Are you sure you want to install BunnyOS 1.0?")
+print("Are you sure you want to install BunnyOS 1.0? (y/n)")
 if read() == "y" then
     shell.run("delete","startup")
     shell.run("delete","startup.lua")
